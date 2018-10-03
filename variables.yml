@@ -1,0 +1,7 @@
+#Local
+
+stage: ${opt:stage, self:provider.stage}
+servicePrefix: pv
+dynamoDBRole: ${self:custom.servicePrefix}-${self:custom.stage}-dynamoDBRole
+restApiResource: ${self:custom.servicePrefix}-${self:custom.stage}
+region: ap-southeast-2

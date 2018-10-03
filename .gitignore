@@ -1,0 +1,12 @@
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+packages/
+node_modules/
+.vs/
+.vscode/
+.serverless/
+*.js
+*.js.map
